@@ -48,3 +48,19 @@ function switchItUp(number){
 >2017-2021 MedSerwisTrans, Controller of Measuring Devices
 
 *****
+## Education & Courses
+>2022 RS School, JS / Front-end. Stage 0
+
+>2009-2014 International Sakharov Environmental University, ecologist-expert
+
+>2013 BELHARD Education Center "Software Testing"
+
+>2013 EPAM Systems "Software Testing Introduction"
+
+*****
+## Languages
+>Russian (native)
+
+>English (pre-intermediate)
+
+>Polish (elementary)
