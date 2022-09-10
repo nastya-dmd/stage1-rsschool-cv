@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("assets/fonts/Montserrat-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("assets/fonts/Montserrat-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("assets/fonts/Montserrat-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("assets/fonts/Montserrat-Bold.ttf");
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #dddbdb;
+    color: #414141;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.container {
+    margin: 0;
+    background-image: url('assets/img/img.jpg');
+    background-position: left;
+    width: 80%;
+    height: 100%;
+}
+
+.block {
+    background-color: rgba(238, 182, 136, 0.199);
+}
+
+header .left {
+    padding-top: 30px;
+}
+
+.row {
+    display: flex;
+    /* padding-left: 30px; */
+    padding-right: 30px;
+}
+
+.left {
+    width: 30%;
+    background-color: rgba(238, 182, 136, 0.199);
+    padding-bottom: 30px;
+    padding-right: 10px;
+
+}
+
+.right {
+    width: 70%;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.left .avatar {
+    width: 100%;
+    border-radius: 0 100% 100% 0 / 0 100% 100% 0;
+    border: 2px solid rgb(224, 200, 185);
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.navbar {
+    line-height: 50px;
+    background-color: rgba(175, 147, 105, 0.26);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+a:visited {
+    color: #414141;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #414141;
+}
+
+.navbar ul li a:hover {
+    color: #000;
+    background-color: rgba(175, 147, 105, 0.26);
+}
+
+
+.list li {
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.list li::before {
+    content: "";
+    border-color: transparent #414141;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -16px;
+    top: 0.9em;
+    position: relative;
+}
+.contacts ul li a{
+  color: #414141 ;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+
+}
