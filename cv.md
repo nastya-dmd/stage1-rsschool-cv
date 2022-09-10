@@ -31,3 +31,20 @@ My strengths, like perseverance and interest in new things, will help in this.
 >Basic knowledge of computer network
 
 *****
+## Code example
+```
+function switchItUp(number){
+
+  const result = {
+    0: 'Zero', 1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six', 7: 'Seven', 8: 'Eight', 9: 'Nine', 
+  };
+  return result [number]
+}
+```
+*****
+## WorK Experience
+>2014-2017 MedSerwisTrans, Customer Service Specialist 
+
+>2017-2021 MedSerwisTrans, Controller of Measuring Devices
+
+*****
