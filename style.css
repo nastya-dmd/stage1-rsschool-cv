@@ -38,8 +38,9 @@ body {
     margin: 0;
     background-image: url('assets/img/img.jpg');
     background-position: left;
-    width: 80%;
-    height: 1440px;
+    width: 86%;
+    height: 1600px;
+    background-repeat: no-repeat;
 }
 
 .block {
@@ -60,7 +61,6 @@ header .left {
     width: 30%;
     background-color: rgba(238, 182, 136, 0.199);
     padding-bottom: 30px;
-    /* padding-right: 10px; */
     padding-top: 10px;
 
 }
@@ -69,6 +69,7 @@ header .left {
     width: 70%;
     padding-left: 30px;
     padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 .left .avatar {
@@ -139,15 +140,24 @@ a:visited {
     top: 0.9em;
     position: relative;
 }
-.contacts ul li a{
-  color: #414141 ;
+
+
+.contacts ul li {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.contacts ul li a {
+    color: #414141;
     text-decoration: none;
+    font-weight: 700;
 }
 
 h1 {
     font-size: 35px;
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
+    padding-left: 38px;
 }
 
 .empty {
@@ -162,13 +172,14 @@ h2 {
     padding-bottom: 5px;
     width: 80%;
 }
+
 .border {
     border-radius: 0 100% 100% 0 / 0 300% 300% 0;
     width: 50%;
-    background-color:  rgba(175, 147, 105, 0.26);
+    background-color: rgba(175, 147, 105, 0.26);
     padding-top: 2px;
     padding-bottom: 2px;
-  
+
 }
 
 .code {
@@ -177,7 +188,9 @@ h2 {
     font-size: 85%;
     line-height: 1.45;
     /* background-color: #f6f8fa; */
-    background-color:  rgb(226, 216, 210) ;
+    background-color: rgb(226, 216, 210);
     opacity: 90%;
     border-radius: 3px;
+    font-family: 'Montserrat';
+    font-weight: 700;
 }
