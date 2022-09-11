@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="left">
+                <img src="./assets/img/Myimage.png" alt="my photo" class="avatar">
+            </div>
+            <div class="right">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#code">Code</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#education">Education&amp;Courses</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                    </ul>
+                </nav>
+                <section>
+                    <div>
+                        <h1>Anastasiya Dziamidcyk</h1>
+                    </div>
+                    <div class="contacts">
+                        <h2>Contacts</h2>
+                        <ul class="list">
+                            <li>Phone: +48 660794585</li>
+                            <li>E-mail: <a
+                                    href="mailto:iskhakova.anastasiya@gmail.com">iskhakova.anastasiya@gmail.com</a>
+                            </li>
+                            <li>Location: Wrocław, Poland</li>
+                            <li>GitHub: <a href="https://github.com/nastya-dmd" target="_blank">nastya-dmd</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <main>
+            <section class="row">
+                <div class="left" id="about">
+                    <div class="border">
+                        <h2>About me</h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>When an opportunity comes along the way, I prefer to take advantage of it. Career change is
+                        one
+                        of
+                        them. My goal is to become a front-end developer. My strengths, like perseverance and
+                        interest
+                        in
+                        new things, will help in this.</p>
+                </div>
+            </section>
+            <section class="row">
+                <div class="left" id="skills">
+                    <div class="border">
+                        <h2>Skills</h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right-container">
+                        <ul class="list">
+                            <li>HTML5 </li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Git, GitHub</li>
+                            <li>Figma</li>
+                            <li>Markdown </li>
+                        </ul>
+                        <div class="dots-container">
+                            <div class="dots-row">
+                                <div class="dots active"></div>
+                                <div class="dots active"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                            </div>
+                            <div class="dots-row">
+                                <div class="dots active"></div>
+                                <div class="dots active"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                            </div>
+                            <div class="dots-row">
+                                <div class="dots active"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                            </div>
+                            <div class="dots-row">
+                                <div class="dots active"></div>
+                                <div class="dots active"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                            </div>
+                            <div class="dots-row">
+                                <div class="dots active"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                            </div>
+                            <div class="dots-row">
+                                <div class="dots active"></div>
+                                <div class="dots active"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                                <div class="dots"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="row">
+                <div class="left" id="code">
+                    <div class="border">
+                        <h2>Code example</h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <pre class="code"><code>
+function mixArray(inputArray) {
+    const result = [...inputArray];
+
+    for (let i = 0; i &lt; result.length; i++) {
+        const randomIndex = getRandomNum(result.length) - 1;
+        const currentEl = result[i];
+        const randomEl = result[randomIndex];
+        result[i] = randomEl;
+        result[randomIndex] = currentEl;
+    }
+
+    return result;
+}
+                     </code></pre>
+                </div>
+            </section>
+            <section class="row">
+                <div class="left" id="experience">
+                    <div class="border">
+                        <h2>Experience</h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <ul class="list">
+                        <li>2017-2021 MedSerwisTrans, Controller of Measuring Devices</li>
+                        <li>2014-2017 MedSerwisTrans, Customer Service Specialist</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="row">
+                <div class="left" id="education">
+                    <div class="border">
+                        <h2>Education&amp;Courses</h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <ul class="list">
+                        <li>2022 RS School, JS / Front-end. Stage 0</li>
+                        <li>2009-2014 International Sakharov Environmental University, ecologist-expert</li>
+                        <li>2013 BELHARD Education Center “Software Testing”</li>
+                        <li>2013 EPAM Systems “Software Testing Introduction”</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="row">
+                <div class="left" id="projects">
+                    <div class="border">
+                        <h2>Projects</h2>
+                    </div>
+                </div>
+                <div class="right projects-links">
+                    <ul class="list">
+                        <li><a href="https://rolling-scopes-school.github.io/nastya-dmd-JSFEPRESCHOOL2022Q2/travel/"
+                                target="_blank">Travel (HTML, CSS, JS)</a></li>
+                        <li><a href="https://rolling-scopes-school.github.io/nastya-dmd-JSFEPRESCHOOL2022Q2/momentum/"
+                                target="_blank">Momentum (HTML, CSS, JS)</a></li>
+                        <li><a href="https://nastya-dmd-codejam-eldritch.netlify.app/" target="_blank">Eldritch
+                                Horror
+                                Codejam (HTML, CSS, JS)</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="row">
+                <div class="left" id="languages">
+                    <div class="border">
+                        <h2>Languages</h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="container-line">
+                        <div>
+                            <ul class="list">
+                                <li>Russian (native)</li>
+                                <li>English (pre-intermediate)</li>
+                                <li>Polish (elementary)</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="line one"></div>
+                            <div class="line two"></div>
+                            <div class="line three"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="row">
+            <div class="github">
+                <a href="https://github.com/nastya-dmd" target="_blank"><img src="./assets/img/github.png"
+                        alt="github"><span class="github">My GitHub</span></a>
+            </div>
+            <div>
+                <p>© 2022</p>
+            </div>
+            <div>
+                <a href="https://rs.school/js/" target="_blank"><img src="./assets/svg/rs_school_js.svg"
+                        alt="rolling-scopes-school"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
