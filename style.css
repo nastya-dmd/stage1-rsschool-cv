@@ -43,12 +43,8 @@ body {
 .container {
     margin: 0;
     background-color: hsla(0, 100%, 100%, 0.8);
-    /* background-image: url('assets/img/img.jpg');
-    background-position: left;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
-    /* height: 2428px; */
     width: 85%;
+    max-width: 1640px;
 }
 
 header {
@@ -70,7 +66,6 @@ header .left {
     background-color: rgba(238, 182, 136, 0.199);
     padding-bottom: 30px;
     padding-top: 10px;
-
 }
 
 .right {
@@ -101,7 +96,6 @@ header .left {
 .dots {
     width: 20px;
     height: 20px;
-    /* background-color: rgba(175, 147, 105, 0.26); */
     border: 1px solid rgba(175, 147, 105, 0.459);
     border-radius: 50%;
 }
@@ -224,7 +218,6 @@ h2 {
     background-color: rgba(175, 147, 105, 0.26);
     padding-top: 2px;
     padding-bottom: 2px;
-
 }
 
 .code {
@@ -247,13 +240,11 @@ h2 {
 .projects-links ul li a:hover {
     background-color: rgba(175, 147, 105, 0.123);
     border-radius: 5%;
-
 }
 
 .container-line {
     display: flex;
     flex-direction: row;
-
 }
 
 .container-line .line {
@@ -286,7 +277,6 @@ h2 {
 footer {
     align-items: center;
     justify-content: space-around;
-    /* margin-left: 30px; */
     height: 50px;
     background-color: rgba(175, 147, 105, 0.26);
 }
