@@ -5,7 +5,7 @@
 
 >**Email:** iskhakova.anastasiya@gmail.com 
 
->**Location:** Wroclaw, Poland
+>**Location:** Wrocław, Poland
 
 >**GitHub:** [nastya-dmd](https://github.com/nastya-dmd)
 
@@ -16,30 +16,36 @@ My strengths, like perseverance and interest in new things, will help in this.
 
 *****
 ## Skills 
->Basic knowledge Markdown
+>Markdown
 
->Basic knowledge Gid and GitHub
+>Git, GitHub
 
->Basic knowledge of HTML
+>HTML5
 
->Basic knowledge of CSS 
+>CSS3
 
->Basic knowledge Figma
+>Figma
 
->Basic knowledge of Javascript
-
->Basic knowledge of computer network
+>JavaScript
 
 *****
 ## Code example
 ```
-function switchItUp(number){
+function mixArray(inputArray) {
+    const result = [...inputArray];
 
-  const result = {
-    0: 'Zero', 1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six', 7: 'Seven', 8: 'Eight', 9: 'Nine', 
-  };
-  return result [number]
+    for (let i = 0; i < result.length; i++) {
+        const randomIndex = getRandomNum(result.length) - 1;
+        const currentEl = result[i];
+        const randomEl = result[randomIndex];
+        result[i] = randomEl;
+        result[randomIndex] = currentEl;
+    }
+
+
+    return result;
 }
+
 ```
 *****
 ## WorK Experience
