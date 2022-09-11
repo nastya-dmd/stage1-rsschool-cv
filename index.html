@@ -25,6 +25,7 @@
                             <li><a href="#code">Code</a></li>
                             <li><a href="#experience">Experience</a></li>
                             <li><a href="#education&courses">Education&Courses</a></li>
+                            <li><a href="#projects">Projects</a></li>
                             <li><a href="#languages">Languages</a></li>
                         </ul>
                     </nav>
@@ -87,12 +88,24 @@
                     </div>
                 </div>
                 <div class="right">
-                    <pre class="code"><code>function getDecimal(n){
+                    <pre class="code"><code>function likes(names) {
   
-                        if(n < 0){
-                          return -n % 1 
+                        if(names.length === 0){
+                          return 'no one likes this'
                         }
-                          return n % 1
+                        else if(names.length === 1){
+                          return `${names[0]} likes this`
+                        }
+                        else if(names.length === 2){
+                          return `${names[0]} and ${names[1]} like this`
+                        }
+                        else if(names.length === 3){
+                          return `${names[0]}, ${names[1]} and ${names[2]} like this`
+                        }
+                        else{
+                          let otherNames = names.length - 2
+                          return `${names[0]}, ${names[1]} and ${otherNames} others like this`
+                        }
                       } </code></pre>
                 </div>
             </section>
@@ -125,17 +138,43 @@
                 </div>
             </section>
             <section class="row">
+                <div class="left" id="projects">
+                    <div class="border">
+                        <h2>Projects</h2>
+                    </div>
+                </div>
+                <div class="right projects-links">
+                    <ul class="list">
+                        <li><a href="https://rolling-scopes-school.github.io/nastya-dmd-JSFEPRESCHOOL2022Q2/travel/"
+                                target="_blank">Travel (HTML, CSS, JS)</a></li>
+                        <li><a href="https://rolling-scopes-school.github.io/nastya-dmd-JSFEPRESCHOOL2022Q2/momentum/"
+                                target="_blank">Momentum (HTML, CSS, JS)</a></li>
+                        <li><a href="https://nastya-dmd-codejam-eldritch.netlify.app/" target="_blank">Eldritch Horror
+                                Codejam (HTML, CSS, JS)</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="row">
                 <div class="left" id="languages">
                     <div class="border">
                         <h2>Languages</h2>
                     </div>
                 </div>
                 <div class="right">
-                    <ul class="list">
-                        <li>Russian (native)</li>
-                        <li>English (pre-intermediate)</li>
-                        <li>Polish (elementary)</li>
-                    </ul>
+                    <div class="container-line">
+                        <div>
+                            <ul class="list">
+                                <li>Russian (native)</li>
+                                <li>English (pre-intermediate)</li>
+                                <li>Polish (elementary)</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="line one"></div>
+                            <div class="line two"></div>
+                            <div class="line three"></div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
