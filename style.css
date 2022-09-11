@@ -24,7 +24,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -34,21 +34,24 @@ body {
     color: #414141;
     display: flex;
     justify-content: center;
-    min-height: 100vh;
-    height: 100vh;
-}
-
-.container {
-    margin: 0;
     background-image: url('assets/img/img.jpg');
     background-position: left;
-    height: 2428px;
-    width: 85%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.block {
+.container {
+    margin: 0;
+    background-color: hsla(0, 100%, 100%, 0.8);
+    /* background-image: url('assets/img/img.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    /* height: 2428px; */
+    width: 85%;
+}
+
+header {
     background-color: rgba(238, 182, 136, 0.199);
 }
 
@@ -62,7 +65,8 @@ header .left {
 }
 
 .left {
-    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
     background-color: rgba(238, 182, 136, 0.199);
     padding-bottom: 30px;
     padding-top: 10px;
@@ -74,6 +78,36 @@ header .left {
     padding-left: 30px;
     padding-bottom: 30px;
     padding-top: 20px;
+}
+
+.right-container {
+    display: flex;
+}
+
+.dots-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.dots-row {
+    width: 200px;
+    margin-bottom: 23px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dots {
+    width: 20px;
+    height: 20px;
+    /* background-color: rgba(175, 147, 105, 0.26); */
+    border: 1px solid rgba(175, 147, 105, 0.459);
+    border-radius: 50%;
+}
+
+.dots.active {
+    background-color: rgba(175, 147, 105, 0.26);
 }
 
 .left .avatar {
@@ -185,6 +219,7 @@ h2 {
 
 .border {
     border-radius: 0 100% 100% 0 / 0 300% 300% 0;
+    border: 1px solid rgba(175, 147, 105, 0.164);
     width: 50%;
     background-color: rgba(175, 147, 105, 0.26);
     padding-top: 2px;
@@ -208,11 +243,13 @@ h2 {
 .projects-links ul li a {
     text-decoration: none;
 }
+
 .projects-links ul li a:hover {
     background-color: rgba(175, 147, 105, 0.123);
     border-radius: 5%;
 
 }
+
 .container-line {
     display: flex;
     flex-direction: row;
@@ -221,6 +258,7 @@ h2 {
 
 .container-line .line {
     background-color: rgba(175, 147, 105, 0.26);
+    border: 1px solid rgba(175, 147, 105, 0.280);
     margin-left: 10px;
 }
 
@@ -250,7 +288,7 @@ footer {
     justify-content: space-around;
     /* margin-left: 30px; */
     height: 50px;
-    background-color:rgba(175, 147, 105, 0.26) ;
+    background-color: rgba(175, 147, 105, 0.26);
 }
 
 footer img {
@@ -265,6 +303,6 @@ footer img {
 }
 
 .github a:hover {
-   color:#414141;
-   background-color: revert;
+    color: #414141;
+    background-color: revert;
 }
